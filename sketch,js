@@ -4,9 +4,8 @@ function setup() {
 }
 
 function draw() {
-  fill("purple");
-  stroke("rgb(225,225,225) ")
-  if(mouseIsPressed);
-  circle(mouseX, mouseY, 30, 50 );
-  
+  if(mouseIsPressed){
+      fill("purple");
+      circle(mouseX,mouseY,10,10)
+  }
 }
